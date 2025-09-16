@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.green-container {
+  background-color: #c7f0c7;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green; /* Thicker green border */
+  padding: 15px; /* Increased padding */
+  gap: 15px; /* Increased gap */
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.blue-container-top,
+.blue-container-bottom {
+  display: flex;
+  background-color: #add8e6;
+  border: 2px solid blue; /* Thicker blue border */
+  padding: 10px;
+  gap: 10px;
+}
+
+.blue-container-top {
+  background-color: #add8e6; /* Light blue background */
+}
+
+.blue-container-top .orange-box {
+  flex-grow: 1;
+  border: 2px solid #f78072;
+  background-color: #fcdab9;
+  padding: 20px;
+}
+
+.red-container {
+  display: flex;
+  border: 2px solid #e99188;
+  background-color: #ffcccc;
+  padding: 5px;
+  flex-direction: row;
+}
+
+.red-box {
+  width: 50px;
+  height: 25px;
+  background-color: #fac0cb;
+  border: 3px solid #f40105;
+}
+
+.pink-container-middle {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.large-pink-box {
+  flex: 2;
+  height: 150px;
+  background-color: #fabbbb;
+  border: 3px solid #a52b2a;
+}
+
+.small-pink-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.small-pink-box {
+  border: 3px solid #a52b2a; /* Thicker dark red border */
+  background-color: #fabbbb;
+  padding: 20px;
+  flex-grow: 1;
+  width: 184px;
+}
+
+.blue-container-bottom {
+  background-color: #add8e6; /* Light purple background */
+}
+
+.bottom-purple-box-left,
+.bottom-purple-box-right {
+  flex-grow: 1;
+  border: 2px solid #6a5acd; /* Thicker dark purple border */
+  background-color: #e2deff;
+  padding: 20px;
+  width: 100px;
+}
+
+.bottom-orange-box-middle {
+  /* No change here, still the middle orange boxes */
+  border: 2px solid #f78072;
+  background-color: #fcdab9;
+  padding: 20px;
+  width: 100px;
+}
