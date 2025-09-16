@@ -11,9 +11,9 @@ body {
   background-color: #c7f0c7;
   display: flex;
   flex-direction: column;
-  border: 2px solid green; /* Thicker green border */
-  padding: 15px; /* Increased padding */
-  gap: 15px; /* Increased gap */
+  border: 2px solid green;
+  padding: 15px;
+  gap: 15px;
   width: 80%;
   box-sizing: border-box;
 }
@@ -22,13 +22,13 @@ body {
 .blue-container-bottom {
   display: flex;
   background-color: #add8e6;
-  border: 2px solid blue; /* Thicker blue border */
+  border: 2px solid blue; 
   padding: 10px;
   gap: 10px;
 }
 
 .blue-container-top {
-  background-color: #add8e6; /* Light blue background */
+  background-color: #add8e6; 
 }
 
 .blue-container-top .orange-box {
@@ -55,7 +55,6 @@ body {
 
 .pink-container-middle {
   display: flex;
-  padding: 10px;
   gap: 10px;
 }
 
@@ -73,7 +72,7 @@ body {
 }
 
 .small-pink-box {
-  border: 3px solid #a52b2a; /* Thicker dark red border */
+  border: 3px solid #a52b2a; 
   background-color: #fabbbb;
   padding: 20px;
   flex-grow: 1;
@@ -81,20 +80,19 @@ body {
 }
 
 .blue-container-bottom {
-  background-color: #add8e6; /* Light purple background */
+  background-color: #add8e6;
 }
 
 .bottom-purple-box-left,
 .bottom-purple-box-right {
   flex-grow: 1;
-  border: 2px solid #6a5acd; /* Thicker dark purple border */
+  border: 2px solid #6a5acd; 
   background-color: #e2deff;
   padding: 20px;
   width: 100px;
 }
 
 .bottom-orange-box-middle {
-  /* No change here, still the middle orange boxes */
   border: 2px solid #f78072;
   background-color: #fcdab9;
   padding: 20px;

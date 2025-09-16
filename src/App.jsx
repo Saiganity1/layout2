@@ -9,7 +9,7 @@ function App() {
           <div className="red-box"></div>
           <div className="red-box"></div>
         </div>
-        <div className="orange-box"></div> {/* New orange box */}
+        <div className="orange-box"></div>
       </div>
 
       <div className="pink-container-middle">
@@ -22,10 +22,10 @@ function App() {
       </div>
 
       <div className="blue-container-bottom">
-        <div className="bottom-purple-box-left"></div> {/* Adjusted for new layout */}
+        <div className="bottom-purple-box-left"></div>
         <div className="bottom-orange-box-middle"></div>
         <div className="bottom-orange-box-middle"></div>
-        <div className="bottom-purple-box-right"></div> {/* Adjusted for new layout */}
+        <div className="bottom-purple-box-right"></div>
       </div>
     </div>
   );
