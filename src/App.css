@@ -38,6 +38,7 @@ body {
   padding: 20px;
 }
 
+
 .red-container {
   display: flex;
   border: 2px solid #e99188;
@@ -46,11 +47,15 @@ body {
   flex-direction: row;
 }
 
-.red-box {
+.top-center-content {
   width: 50px;
   height: 25px;
   background-color: #fac0cb;
   border: 3px solid #f40105;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 
 .pink-container-middle {
@@ -83,6 +88,7 @@ body {
   background-color: #add8e6;
 }
 
+
 .bottom-purple-box-left,
 .bottom-purple-box-right {
   flex-grow: 1;
@@ -92,9 +98,13 @@ body {
   width: 100px;
 }
 
-.bottom-orange-box-middle {
+.bottom-box {
   border: 2px solid #f78072;
   background-color: #fcdab9;
   padding: 20px;
   width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
